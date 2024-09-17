@@ -7,7 +7,7 @@ import numpy as np
 from scipy.interpolate import griddata
 
 # Ruta donde se almacenan los archivos de Excel
-file_paths = glob.glob('/home/cruz/Documentos/UNAM/Animales_II/celula_muscular/*.xlsx')  # Busca todos los archivos Excel en la carpeta
+file_paths = glob.glob('/home/cruz/Documentos/UNAM/Animales_II/axon_calamar/*.xlsx')  # Busca todos los archivos Excel en la carpeta
 
 # Crear una figura para el gráfico 3D
 fig = plt.figure()
@@ -98,7 +98,7 @@ for idx, file_path in enumerate(file_paths):
 ax.legend()
 
 # Guardar el gráfico como imagen en lugar de mostrarlo, si hay problemas con la GUI
-plt.savefig('/home/cruz/Documentos/UNAM/Animales_II/celula_muscular/3d_scatter_plot_with_surface.png')
+plt.savefig('/home/cruz/Documentos/UNAM/Animales_II/axon_calamar/3d_scatter_plot_with_surface.png')
 
 # Mostrar el gráfico
 plt.show()
