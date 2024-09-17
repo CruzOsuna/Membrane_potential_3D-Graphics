@@ -5,7 +5,7 @@ import glob
 import os
 
 # Ruta donde se almacenan los archivos de Excel
-file_paths = glob.glob('/home/cruz/Documentos/UNAM/Animales_II/eritrocito/*.xlsx')  # Busca todos los archivos Excel en la carpeta
+file_paths = glob.glob('/home/cruz/Documentos/UNAM/Animales_II/celula_muscular/*.xlsx')  # Busca todos los archivos Excel en la carpeta
 
 # Crear una figura para el gráfico 3D
 fig = plt.figure()
@@ -44,7 +44,7 @@ ax.set_ylabel('Internal Ion Concentration')
 ax.legend()
 
 # Guardar el gráfico como imagen en lugar de mostrarlo, si hay problemas con la GUI
-plt.savefig('/home/cruz/Documentos/UNAM/Animales_II/eritrocito/3d_scatter_plot.png')
+plt.savefig('/home/cruz/Documentos/UNAM/Animales_II/celula_muscular/3d_scatter_plot.png')
 
 # Mostrar el gráfico
 plt.show()
